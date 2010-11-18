@@ -1,0 +1,29 @@
+* {margin: 0; padding: 0; outline: 0;}
+body {
+text-align: center;
+font-family: 'Arial Rounded MT Bold', Verdana;
+}
+/************* Layout **************/
+div#wrapper {
+width: 900px;
+text-align: left;
+margin: 0 auto;
+}
+div#header {
+height: 200px;
+position: relative;
+}
+div#header ul#menu {
+list-style-type: none;
+}
+div#header ul#menu li {float:left;}
+/************ Classes **************/
+.red-border {
+border: 1px solid red;
+}
+.green-border {
+border: 1px solid green;
+}
+.blue-border {
+border: 1px solid blue;
+}
