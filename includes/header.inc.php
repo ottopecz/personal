@@ -16,7 +16,7 @@
 <ul id="menu">
 <li><a href="index.php">home</a></li>
 <li><a href="photos.php">photos</a></li>
-<li><a href="videos.php">videos</a></li>
 <li><a href="resume.php">resume</a></li>
 </ul>
+<div class="clear"></div>
 </div> <!-- header ends -->
