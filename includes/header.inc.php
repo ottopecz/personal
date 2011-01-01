@@ -11,12 +11,20 @@
 <link rel="stylesheet" type="text/css" media="screen" href="css/stylesheet.css" />
 </head>
 <body>
-<div id="wrapper">
+<div id="header_wrapper">
 <div id="header">
 <ul id="menu">
 <li><a href="index.php">home</a></li>
 <li><a href="photos.php">photos</a></li>
 <li><a href="resume.php">resume</a></li>
 </ul>
-<div class="clear"></div>
 </div> <!-- header ends -->
+</div> <!-- header_wrapper ends -->
+<div class="clear"></div>
+<div id="title_wrapper">
+<div id="title">
+<h1>Otto Pecz</h1>
+</div>
+</div> <!-- title_wrapper ends -->
+<div class="clear"></div>
+<div id="main">

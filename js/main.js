@@ -50,34 +50,53 @@ $("div.lightbox_content").hover(
 		}, 
 		function () {
 			$("img.close-button").fadeOut('slow');
-		});	
-	
+		});
+
+portraits = new Array(
+					"OttoPecz01.jpg",
+					"OttoPecz14.jpg",				
+					"OttoPecz03.jpg",
+					"OttoPecz15.jpg",
+					"OttoPecz05.jpg",
+					"OttoPecz07.jpg",
+					"OttoPecz11.jpg",					
+					"OttoPecz09.jpg",
+					"OttoPecz04.jpg",
+					"OttoPecz10.jpg",
+					"OttoPecz08.jpg",
+					"OttoPecz12.jpg",
+					"OttoPecz06.jpg",
+					"OttoPecz13.jpg",
+					"OttoPecz02.jpg"					
+					);
+					
+stage_photos = new Array(
+					"stage01.jpg",
+					"stage02.jpg",				
+					"stage03.jpg",
+					"stage04.jpg",
+					"stage05.jpg",
+					"stage06.jpg",
+					"stage07.jpg",					
+					"stage08.jpg",
+					"stage09.jpg",
+					"stage10.jpg",
+					"stage11.jpg",
+					"stage12.jpg",
+					"stage13.jpg",
+					"stage14.jpg",
+					"stage15.jpg"					
+					);					
 });
 
 function lightBox(opts) {
 	var content = opts.content;
-	var index = opts.index;
-	
-	var portraits = new Array(
-					"OttoPecz01.jpg",
-					"OttoPecz02.jpg",
-					"OttoPecz03.jpg",
-					"OttoPecz04.jpg",
-					"OttoPecz05.jpg",
-					"OttoPecz06.jpg",
-					"OttoPecz07.jpg",
-					"OttoPecz08.jpg",
-					"OttoPecz09.jpg",
-					"OttoPecz10.jpg",
-					"OttoPecz11.jpg",
-					"OttoPecz12.jpg",
-					"OttoPecz13.jpg",
-					"OttoPecz14.jpg",
-					"OttoPecz15.jpg"
-					);				
+	var index = opts.index;			
 				
 	if (content == "portraits")
 		var imgArray = portraits;
+	else if (content == "stage_photos")
+		var imgArray = stage_photos;
 	
 	$.getJSON('scripts/get_image_info.php', { image: imgArray[index] }, function(json){
 			
@@ -175,14 +194,6 @@ function lightBox(opts) {
 							});
 			}
 	});
-	
-	/*var photo = document.createElement('img');
-	$(photo).attr({
-					src: "images/photos/"+imgArray[index]
-				}).appendTo($('#lightbox_content'));
-	alert($('#lightbox_content img').height());
-	$('#lightbox').show();
-	$('#lightbox_content').show();*/
 }
 
 function showPhoto(opts) {
@@ -247,14 +258,14 @@ function animateCarousel(opts) {
 	
 	$(socket+" div.control-prev div.control-arrow-prev").click(function(){
 		pos = parseInt($(socket+" div.carousel-in div.slider").css('left'));
-		if (pos != -1700)
-			prev({pos: pos, socket: socket});
+		if (pos != 0)
+			next({pos: pos, socket: socket});
 	});
 
 	$(socket+" div.control-next div.control-arrow-next").click(function(){
 		pos = parseInt($(socket+" div.carousel-in div.slider").css('left'));	
-		if (pos != 0)
-			next({pos: pos, socket: socket});
+		if (pos != -1700)
+			prev({pos: pos, socket: socket});
 	});	
 }
 

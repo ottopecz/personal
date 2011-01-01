@@ -1,25 +1,46 @@
 * {margin: 0; padding: 0; outline: 0;}
 body {
 	text-align: center;
-	/*font-family: 'Arial Rounded MT Bold', Verdana;*/
+	font-family: 'Arial Rounded MT Bold', Verdana;
+	font-size: 12px;
 	overflow-x: hidden;
+	background-color: #ededed;
+	color: #353535;
 }
-a {text-decoration: none;}
+a {text-decoration: none; color: #d2004f;}
+a:hover {color: #ff0060;}
+table {width: 100%; border-spacing: 5px;}
+table tr td {border: 1px solid black; padding: 3px 7px;}
+table col.first {width: 40%;}
+table col.second {width: 30%;}
+table col.third {width: 30%;}
 /***********************************/
 /************* Layout **************/
 /***********************************/
-div#wrapper {
-	width: 950px;
+div#main {
+	width: 926px;
 	text-align: left;
 	margin: 0 auto;
+	background-color: #ededed;
+	min-height: 500px;
+	padding: 12px;
 }
-div#header {}
+div#header_wrapper {height: 50px; background-color: #3d0400; border-bottom: 2px solid #d2004f;}
+div#header {width: 926px; margin: 0 auto; padding-left: 12px; padding-right: 12px;}
+div#title_wrapper {height: 100px; background-color: #ccc; border-bottom: 2px solid #999;}
+div#title {width: 926px; margin: 0 auto; padding-left: 12px; padding-right: 12px; text-align: left;}
+div#title h1 {line-height: 100px; font-size: 48px;}
 div#header ul#menu {list-style-type: none;}
-div#header ul#menu li {float:left;}
+div#header ul#menu li {float:left; padding-right: 10px; height: 50px;}
+div#header ul#menu li a {font-size: 1.333em; line-height: 50px;}
+div#left_side {float: left;}
+div#right_side {float: right; width: 298px;}
+div#right_side div.right-side-div {width: 284px; padding: 7px; background-color: #ccc; border: 1px solid #999; margin-bottom: 12px;}
+div#right_side h4 {color: #3d0400; font-size: 1.333em;}
 /***********************************/
 /************ Classes **************/
 /***********************************/
-
+img.border {background-color: #ccc; padding: 7px; border: 1px solid #999;}
 /************ Carousel *************/
 div.carousel-out {
 	height: 170px;
@@ -111,4 +132,5 @@ img.close-button {
 .green-border {border: 1px solid green;}
 .blue-border {border: 1px solid blue;}
 .purple-border {border: 1px solid purple;}
+.bold {font-weight: bold;}
 .clear {clear: both;}

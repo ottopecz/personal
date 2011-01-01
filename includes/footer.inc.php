@@ -1,6 +1,6 @@
 <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
 <script type="text/JavaScript" src="js/main.js"></script>
-</div> <!-- wrapper ends -->
+</div> <!-- main ends -->
 <?php	
 	// Additional page-specific js files
 	if (isset($page_js_files))
