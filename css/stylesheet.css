@@ -40,7 +40,13 @@ div#right_side h4 {color: #3d0400; font-size: 1.333em;}
 /***********************************/
 /************ Classes **************/
 /***********************************/
-img.border {background-color: #ccc; padding: 7px; border: 1px solid #999;}
+img.border {
+	background-color: #d2004f;
+	padding: 7px;
+	border: 1px solid #999;
+	-webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+}
 /************ Carousel *************/
 div.carousel-out {
 	height: 170px;
@@ -119,10 +125,12 @@ div.lightbox_content {
 	border: 16px solid #3399ff;*/
 	background-color: white;
 	overflow: auto;
+	-webkit-border-radius: 8px;
+    -moz-border-radius: 8px;	
 }
 img.close-button {
 	display: none;
-	top: 15px; right: 15px;
+	top: 5px; right: 5px;
 	position: absolute;
 }
 /**************************************/
