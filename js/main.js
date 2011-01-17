@@ -13,20 +13,6 @@ $(document).ready(function(){
 	// carousel control arrow animation
 	$("div.control-arrow-prev").hover(
 		function () {
-			$(this).css("background-position", "-68px 0px");
-		},
-		function () {
-			$(this).css("background-position", "-102px 0px");
-		}
-	).mousedown(function(){
-		$(this).css("background-position", "-34px 0px");
-	}).mouseup(function(){
-		$(this).css("background-position", "-68px 0px")
-	});
-
-	// carousel control arrow animation
-	$("div.control-arrow-next").hover(
-		function () {
 			$(this).css("background-position", "-34px 0px");
 		},
 		function () {
@@ -36,6 +22,20 @@ $(document).ready(function(){
 		$(this).css("background-position", "-68px 0px");
 	}).mouseup(function(){
 		$(this).css("background-position", "-34px 0px")
+	});
+
+	// carousel control arrow animation
+	$("div.control-arrow-next").hover(
+		function () {
+			$(this).css("background-position", "-68px 0px");
+		},
+		function () {
+			$(this).css("background-position", "-102px 0px");
+		}
+	).mousedown(function(){
+		$(this).css("background-position", "-34px 0px");
+	}).mouseup(function(){
+		$(this).css("background-position", "-68px 0px")
 	});
 	
 $("div.lightbox_content").hover(

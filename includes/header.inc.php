@@ -23,7 +23,7 @@
 <div class="clear"></div>
 <div id="title_wrapper">
 <div id="title">
-<h1>Otto Pecz</h1>
+<img src="images/name.png" width="322" height="100" alt="otto pecz" /> 
 </div>
 </div> <!-- title_wrapper ends -->
 <div class="clear"></div>

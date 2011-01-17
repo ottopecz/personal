@@ -4,7 +4,9 @@ body {
 	font-family: 'Arial Rounded MT Bold', Verdana;
 	font-size: 12px;
 	overflow-x: hidden;
-	background-color: #ededed;
+	background-color: #959595;
+	background-image: url('../images/big_background.jpg');
+	background-position: center 154px;
 	color: #353535;
 }
 a {text-decoration: none; color: #d2004f;}
@@ -21,31 +23,37 @@ div#main {
 	width: 926px;
 	text-align: left;
 	margin: 0 auto;
-	background-color: #ededed;
+	background-color: transparent;
 	min-height: 500px;
 	padding: 12px;
 }
 div#header_wrapper {height: 50px; background-color: #3d0400; border-bottom: 2px solid #d2004f;}
 div#header {width: 926px; margin: 0 auto; padding-left: 12px; padding-right: 12px;}
-div#title_wrapper {height: 100px; background-color: #ccc; border-bottom: 2px solid #999;}
+div#title_wrapper {height: 100px; background-color: #ccc; border-bottom: 2px solid #efefef;}
 div#title {width: 926px; margin: 0 auto; padding-left: 12px; padding-right: 12px; text-align: left;}
 div#title h1 {line-height: 100px; font-size: 48px;}
 div#header ul#menu {list-style-type: none;}
 div#header ul#menu li {float:left; padding-right: 10px; height: 50px;}
 div#header ul#menu li a {font-size: 1.333em; line-height: 50px;}
-div#left_side {float: left;}
-div#right_side {float: right; width: 298px;}
-div#right_side div.right-side-div {width: 284px; padding: 7px; background-color: #ccc; border: 1px solid #999; margin-bottom: 12px;}
+div#left_side {float: left; position: relative;}
+div#right_side {float: right; width: 312px;}
+div#right_side div.harmonicon-title {
+	width: 312px; height: 40px;
+	background: url('../images/harmonicon_title.png') top left no-repeat;
+	margin-bottom: 4px;
+}
+div#right_side div.harmonicon-title a {font-size: 1.333em; line-height: 40px; padding: 0 0 0 20px;}
 div#right_side h4 {color: #3d0400; font-size: 1.333em;}
 /***********************************/
 /************ Classes **************/
 /***********************************/
-img.border {
-	background-color: #d2004f;
-	padding: 7px;
-	border: 1px solid #999;
-	-webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
+img#big {
+	position: absolute;
+	top: 8px; left: 8px;
+}
+img#frame {
+	position: absolute;
+	top: 0px; left: 0px;
 }
 /************ Carousel *************/
 div.carousel-out {
@@ -94,14 +102,14 @@ div.control-arrow-prev {
 	width: 34px;
 	height: 34px;
 	background-image: url("../images/prev-horizontal.png");
-	background-position: -102px 0px;
+	background-position: 0px 0px;
 }
 div.control-arrow-next {
 	margin: 68px 0 0 8px;
 	width: 34px;
 	height: 34px;
 	background-image: url("../images/next-horizontal.png");
-	background-position: 0px 0px;
+	background-position: -102px 0px;
 }
 
 /************* Lightbox ***************/
