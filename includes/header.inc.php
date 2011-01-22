@@ -23,7 +23,7 @@
 <div class="clear"></div>
 <div id="title_wrapper">
 <div id="title">
-<img src="images/name.png" width="322" height="100" alt="otto pecz" /> 
+<img src="images/nameKatyBerry.png" width="269" height="100" alt="otto pecz" />
 </div>
 </div> <!-- title_wrapper ends -->
 <div class="clear"></div>

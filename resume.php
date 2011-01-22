@@ -1,12 +1,12 @@
 <?php
 include_once $_SERVER['DOCUMENT_ROOT']."/personal/"."/includes/header.inc.php";
 ?>
-<!--<h3>Otto Pecz</h3>
 <table>
 		<tr><td>Phone: +36-20-335-6717</td></tr>
 		<tr><td>Email: otto.pecz@gmail.com</td></tr>
 		<tr><td>Height: 6'5"; Weight: 290 lbs; Hair: Salt and Pepper; Eyes: Blue; Range: Bass-Baritone</td></tr>
 </table>
+<br />
 <h3>New School for Drama (MFA)</h3>
 <table>
 	<col class="first" />
@@ -33,6 +33,7 @@ include_once $_SERVER['DOCUMENT_ROOT']."/personal/"."/includes/header.inc.php";
 		<td>Paul Rudd</td>	
 	</tr>	
 </table>
+<br />
 <h3>Hungarian National Theater, Hungary (company member)</h3>
 <table>
 	<col class="first" />
@@ -89,6 +90,7 @@ include_once $_SERVER['DOCUMENT_ROOT']."/personal/"."/includes/header.inc.php";
 		<td>Gyorgy Schwajda</td>
 	</tr>		
 </table>
+<br />
 <h3>Szigligeti Theater, Hungary (company member)</h3>
 <table>
 	<col class="first" />
@@ -115,6 +117,7 @@ include_once $_SERVER['DOCUMENT_ROOT']."/personal/"."/includes/header.inc.php";
 		<td>Imre Csiszar</td>	
 	</tr>			
 </table>
+<br />
 <h3>TV</h3>
 <table>
 <col class="first" />
@@ -126,6 +129,7 @@ include_once $_SERVER['DOCUMENT_ROOT']."/personal/"."/includes/header.inc.php";
 		<td>TV2 (Hungary)</td>
 	</tr>
 </table>
+<br />
 <h3>Film</h3>
 <table>
 	<col class="first" />
@@ -137,6 +141,7 @@ include_once $_SERVER['DOCUMENT_ROOT']."/personal/"."/includes/header.inc.php";
 		<td>Paul Erdoss</td>
 	</tr>
 </table>
+<br />
 <h3>Independent projects</h3>
 <table>
 	<col class="first" />
@@ -153,12 +158,14 @@ include_once $_SERVER['DOCUMENT_ROOT']."/personal/"."/includes/header.inc.php";
 		<td>&nbsp;</td>			
 	</tr>	
 </table>
+<br />
 <h3>Skills</h3>
 <table>
 	<tr>
 		<td>Languages: Hungarian(native speaker), English (fluent), Dialects: Neutral American, Hungarian, German, Russian, Dance: Hungarian folk dance, and American tap dance.</td>		
 	</tr>
 </table>
+<br />
 <h3>Trainings and workshops</h3>
 <table>
 	<col class="first" />
@@ -184,7 +191,8 @@ include_once $_SERVER['DOCUMENT_ROOT']."/personal/"."/includes/header.inc.php";
 		<td>Verse dramas</td>
 		<td>Source: J. Racine, Andromache</td>
 	</tr>		
-</table> -->
+</table>
+<br />
 <?php
 include_once $_SERVER['DOCUMENT_ROOT']."/personal/"."/includes/footer.inc.php";
 ?>

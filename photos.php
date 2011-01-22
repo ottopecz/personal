@@ -2,7 +2,6 @@
 include_once $_SERVER['DOCUMENT_ROOT']."/personal/"."/includes/header.inc.php";
 $page_js_files = '<script type="text/JavaScript" src="js/photos.js"></script>';
 ?>
-<br />
 <div id="portraits" class="carousel-out">
 <div class="carousel-in">
 <div class="slider">
@@ -61,7 +60,6 @@ for ($i=0; $i<15; $i++)
 <div class="control-arrow-next"></div>
 </div>
 </div> <!-- carousel-out ends -->
-<br />
 <div id="stage_photos" class="carousel-out">
 <div class="carousel-in">
 <div class="slider">
