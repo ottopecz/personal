@@ -1,5 +1,5 @@
 <?php
-include_once $_SERVER['DOCUMENT_ROOT']."/personal/"."/includes/header.inc.php";
+include_once $_SERVER['DOCUMENT_ROOT']."/personal"."/includes/header.inc.php";
 $page_js_files = '<script type="text/JavaScript" src="js/photos.js"></script>';
 ?>
 <div id="portraits" class="carousel-out">
@@ -102,6 +102,11 @@ $stage_photos = array(
 					
 for ($i=0; $i<15; $i++)
 {
+	/*echo '
+	<div class="item">
+		<img src="images/photos/'.$stage_thumbs[$i].'" class="photo" width="120px" height="120px" alt="Otto Pecz - stage photo" />
+		<img onclick="lightBox({index: '.$i.', content: \'stage_photos\'})" src="images/carousel_138_default.png" class="top" width="138px" height="138px" alt="Otto Pecz - headshot - border" />
+	</div>';*/
 	echo '
 	<div class="item">
 		<img src="images/photos/'.$stage_thumbs[$i].'" class="photo" width="120px" height="120px" alt="Otto Pecz - stage photo" />
@@ -119,5 +124,5 @@ for ($i=0; $i<15; $i++)
 </div>
 </div> <!-- carousel-out ends -->
 <?php
-include_once $_SERVER['DOCUMENT_ROOT']."/personal/"."/includes/footer.inc.php";
+include_once $_SERVER['DOCUMENT_ROOT']."/personal"."/includes/footer.inc.php";
 ?>

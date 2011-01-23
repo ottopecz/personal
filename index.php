@@ -1,5 +1,5 @@
 <?php
-include_once $_SERVER['DOCUMENT_ROOT']."/personal/"."/includes/header.inc.php";
+include_once $_SERVER['DOCUMENT_ROOT']."/personal"."/includes/header.inc.php";
 ?>
 <div id="left_side">
 	<img id="big" src="images/photos/OttoPecz02.jpg" width="572" height="372" />
@@ -29,5 +29,5 @@ include_once $_SERVER['DOCUMENT_ROOT']."/personal/"."/includes/header.inc.php";
 <div class="harmonicon-title"><a href="#">download:</a></div>-->
 </div> <!-- right-side ends -->
 <?php
-include_once $_SERVER['DOCUMENT_ROOT']."/personal/"."/includes/footer.inc.php";
+include_once $_SERVER['DOCUMENT_ROOT']."/personal"."/includes/footer.inc.php";
 ?>

@@ -14,16 +14,20 @@
 <div id="header_wrapper">
 <div id="header">
 <ul id="menu">
+<li class="odd"><img src="images/line.png"/></li>
 <li><a href="index.php">home</a></li>
+<li class="odd"><img src="images/line.png"/></li>
 <li><a href="photos.php">photos</a></li>
+<li class="odd"><img src="images/line.png"/></li>
 <li><a href="resume.php">resume</a></li>
+<li class="odd"><img src="images/line.png"/></li>
 </ul>
 </div> <!-- header ends -->
 </div> <!-- header_wrapper ends -->
 <div class="clear"></div>
 <div id="title_wrapper">
 <div id="title">
-<img src="images/nameKatyBerry.png" width="269" height="100" alt="otto pecz" />
+<img src="images/name_amsterdam.png" width="495" height="100" alt="otto pecz" />
 </div>
 </div> <!-- title_wrapper ends -->
 <div class="clear"></div>

@@ -50,9 +50,14 @@ $("div.lightbox_content").hover(
 		}, 
 		function () {
 			$("img.close-button").fadeOut('slow');
-		});
+		});					
+});
 
-portraits = new Array(
+function lightBox(opts) {	
+	var content = opts.content;
+	var index = opts.index;
+
+var portraits = new Array(
 					"OttoPecz01.jpg",
 					"OttoPecz14.jpg",				
 					"OttoPecz03.jpg",
@@ -70,7 +75,7 @@ portraits = new Array(
 					"OttoPecz02.jpg"					
 					);
 					
-stage_photos = new Array(
+var stage_photos = new Array(
 					"stage01.jpg",
 					"stage02.jpg",				
 					"stage03.jpg",
@@ -86,17 +91,12 @@ stage_photos = new Array(
 					"stage13.jpg",
 					"stage14.jpg",
 					"stage15.jpg"					
-					);					
-});
-
-function lightBox(opts) {
-	var content = opts.content;
-	var index = opts.index;			
+					);	
 				
 	if (content == "portraits")
 		var imgArray = portraits;
 	else if (content == "stage_photos")
-		var imgArray = stage_photos;
+		var imgArray = stage_photos;		
 	
 	$.getJSON('scripts/get_image_info.php', { image: imgArray[index] }, function(json){
 			

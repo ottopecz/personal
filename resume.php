@@ -1,5 +1,5 @@
 <?php
-include_once $_SERVER['DOCUMENT_ROOT']."/personal/"."/includes/header.inc.php";
+include_once $_SERVER['DOCUMENT_ROOT']."/personal"."/includes/header.inc.php";
 ?>
 <table>
 		<tr><td>Phone: +36-20-335-6717</td></tr>
@@ -194,5 +194,5 @@ include_once $_SERVER['DOCUMENT_ROOT']."/personal/"."/includes/header.inc.php";
 </table>
 <br />
 <?php
-include_once $_SERVER['DOCUMENT_ROOT']."/personal/"."/includes/footer.inc.php";
+include_once $_SERVER['DOCUMENT_ROOT']."/personal"."/includes/footer.inc.php";
 ?>

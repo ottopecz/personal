@@ -7,6 +7,7 @@ body {
 	background-color: #959595;
 	background-image: url('../images/big_background.jpg');
 	background-position: center 50px;
+	background-repeat: no-repeat;
 	color: #353535;
 }
 h3 {
@@ -15,7 +16,7 @@ h3 {
 }
 a {text-decoration: none; color: #d2004f;}
 a:hover {color: #ff0060;}
-table {width: 100%; border-spacing: 5px; background-color: white; padding: 11px; border: 1px solid #d2004f;}
+table {width: 100%; border-spacing: 5px; background-color: white; padding: 3px 1px; border: 1px solid #d2004f;}
 table tr td {padding: 3px 7px;}
 table col.first {width: 40%;}
 table col.second {width: 30%;}
@@ -45,7 +46,8 @@ div#header {
 div#title_wrapper {height: 100px; background-color: transparent;}
 div#title {width: 926px; margin: 0 auto; padding-left: 12px; padding-right: 12px; text-align: left;}
 div#header ul#menu {list-style-type: none;}
-div#header ul#menu li {float:left; padding-right: 10px; height: 50px;}
+div#header ul#menu li {float:left; padding: 0 5px; height: 50px;}
+div#header ul#menu li.odd {padding: 0;}
 div#header ul#menu li a {font-size: 1.333em; line-height: 50px;}
 div#left_side {float: left; width: 572px; height: 372px; padding: 14px; background-color: white; border: 1px solid #d2004f;}
 div#right_side {float: right; width: 312px;}
